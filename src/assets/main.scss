@@ -18,23 +18,20 @@ body {
   margin: 20px 10px;
   padding: 15px 10px;
   width: 200px;
-}
-
-.course h3 {
-  color: #999;
-  font-size: 1.9rem;
-  font-weight: 200;
-  min-height: 80px;;
-}
-
-.course img {
-  border: none;
-  height: 150px;
-  margin-bottom: 20px;
-  max-width: 100%;
-  width: 150px;
-}
-
-.course a {
-  display: block;
+  h3 {
+   color: #999;
+   font-size: 1.9rem;
+   font-weight: 200;
+   min-height: 80px;;
+  }
+  img {
+   border: none;
+   height: 150px;
+   margin-bottom: 20px;
+   max-width: 100%;
+   width: 150px;
+  }
+  a {
+    display: block;
+  }
 }

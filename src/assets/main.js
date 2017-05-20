@@ -5,6 +5,8 @@ $(function() {
      url: 'https://www.codeschool.com/users/mikaelfivel.json',
      dataType: 'jsonp',
      success: function(response) {
+       console.log('response', response);
+
        addCourses(response.courses.completed);
      }
    });
